@@ -27,7 +27,24 @@ Hive is a datawarehoiuse built on top of hadoop. It is a dictributed system. Oli
 
 - APACHE Hive is open source DW is part of karger hadoop ecpsystem 
 
+- Hadoop can store millions of records, fault tolerant and recoversy when nodes crash
+  - HDFS - data storage for hadoop
+
+  - Mapreduce is parallel procesing framework to process data across mltiple machines
+
+  - YARN - cordinator that says where processes can run
+  
+   
+- Hive queris are transalted to mapreduce jobs. Mapreduce defines the actual logic. MR are batch processing applications , jobs run fro days, mapreduce code in java. Hive harness the power of mapreduce without writing any java code
+
+- HiveQL similar to  sql, analyst and enginners are familar with these simple query construclrs like select, group by,m join. Each of thes e stmst are converted to hive
+
+- Hive sees data in form of tables although hdfs store it in files (hive metastore takes care of this conversion of file to tables exposed to user) 
+
 - 
+
+
+
   
   
 
